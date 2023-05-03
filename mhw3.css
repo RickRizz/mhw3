@@ -1,0 +1,266 @@
+body{
+    background: black;
+}
+img{
+    width:calc(66.67%);
+    max-height: 600px;
+    margin-bottom: 20px;
+}
+
+#icona{
+    
+    color:black;
+    justify-content: flex-end;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor:pointer;
+    display:none;
+      
+}
+
+#icona div{
+    background-color:white;
+    width: 8px;
+    height: 40px;
+    margin:-12px;
+    margin-right: 50px;
+    border: 1px solid black;
+    -webkit-transform:rotate(90deg);
+}
+
+
+
+#profilo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 47%;
+    top:55%;
+    
+    
+}
+
+#profilo img{
+    height:100px;
+    width: 100px;
+    margin-bottom: 0px;
+    
+    text-align: center;
+}
+
+#profilo p{
+    color: white;
+    text-align: center;
+   
+}
+
+
+#container_sfondo{
+    position:relative;
+    text-align: center;
+    top:-40px;
+    
+}
+
+
+
+
+#sfondo{
+    font-size: 80px;
+    letter-spacing: 5px;
+    
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("https://blog.sadesign.it/wp-content/uploads/2021/04/arte-e-videogiochi.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    font-family: 'Anton', sans-serif;
+    color:yellow;
+    line-height: 650px;
+    width:100%;
+    margin-bottom: 110px; 
+    
+}
+
+
+@media (max-width:900px) {
+    #sfondo{
+        font-size:55px;
+        margin-top:40px;
+    }
+}
+@media (max-width:650px) {
+    #sfondo{
+        font-size:37px;
+        margin-top:40px;
+    }
+}
+@media (max-width:500px) {
+    #sfondo{
+        font-size:27px;
+        margin-top:40px;
+    }
+}
+
+@media (max-width:700px){
+    #pulsanti{
+        position:fixed;
+        z-index: 1;
+        width:30%;
+        flex-direction: column;
+        right: 0;
+        margin-top: -10px;
+        background-color: rgba(0,0,0,0.3);
+        height: fit-content;
+        display:none;
+    }
+
+   
+
+    #icona{
+        display: flex;
+    }
+}
+
+li{
+    color:aliceblue;
+    margin-left: 40px;
+    margin-bottom:120px;
+}
+
+header{
+    background-color: rgb(8, 6, 6);
+    color:white;
+    font-size: 30px;
+    padding:8px;
+    padding-left: 0px;
+    width:auto;
+    
+}
+
+header nav{
+    background: linear-gradient(110.6deg, rgb(138, 19, 157) 2.2%, rgb(104, 119, 244) 100.2%);
+    padding:15px 15px;
+    width: 100%;
+}
+
+a{
+    margin:40px;
+}
+
+
+
+a:hover{
+    cursor:pointer;
+    color:yellow;
+}
+
+footer{
+   
+    background: linear-gradient(110.6deg, rgb(138, 19, 157) 2.2%, rgb(104, 119, 244) 100.2%);
+    padding:15px;
+    text-align: center; 
+    
+}
+
+footer p{
+   font-size: 1.2em;
+   font-weight: bold;
+   color:rgb(230, 178, 48);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container_flex{
+    display:flex;
+    width:calc(66.67%);
+    justify-content: space-around;
+}
+
+.container_flex li{
+    margin:5px;
+    margin-right: 50px;
+}
+
+.pro{
+    background-color: green;
+    
+}
+
+.contro{
+    background-color: red;
+}
+
+.descrizione{
+    max-width: calc(66.67%);
+    text-align:left;
+}
+
+.container_flex li{
+    max-width: 100px;
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+
+#news{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    cursor:pointer;
+    margin-top: 50px;
+    border:2px solid purple;
+}
+
+#news img{
+    padding-top:20px;
+    max-width: 600px;
+    
+   
+}
+#news .titolo {
+    max-width: 600px;
+    font-size: 40px;
+    color:yellow;
+   
+   
+}
+
+
+#separatore{
+    color:white;
+    font-size: 90px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    color:whitesmoke;
+    margin-left: 70px;
+}
+
+#classi{
+    display:flex;
+    justify-content:space-around;
+    
+}
+#classi p{
+    color:yellow;
+    cursor:pointer;
+}
+
+.top_tre{
+    color:yellow;
+    font-size: 34px;
+}
+
+.job{
+    font-size:28px;
+}
+
+#classifica{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
